@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "outDir": "./dist/",
+        "noImplicitAny": false,
+        "module": "CommonJs",
+        "target": "ESNext",
+        "moduleResolution": "node",
+        "jsx": "react",
+        "allowJs": true,
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "esModuleInterop" : true,
+        "typeRoots": [
+            "./node_modules/@types"
+        ],
+        "lib": [
+            "ESNext",
+            "DOM"
+        ], 
+        "paths": {
+            "@assets/*": ["assets/*"],
+            "@app/*": ["components/*"]
+       }
+    },
+    "include": [
+        "./",
+        "./src/assets/index.d.ts"
+    ]
+}

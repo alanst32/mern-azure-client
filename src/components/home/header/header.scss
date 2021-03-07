@@ -1,0 +1,29 @@
+.header {
+    height: 300px;
+
+    .jumbotron {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        margin: auto;
+        background-color: lightblue;
+        margin-bottom: 10px;
+    }
+    .form {
+        display: block;
+    }
+
+    .infoBox {
+        justify-content: center;
+        display: flex;
+        vertical-align: center;
+    }
+    .labelStyle {
+        font-size: 32px;
+        font-weight: bold;
+        color: white;
+        margin-top: 20px;
+        height: 90%;
+    }
+}
