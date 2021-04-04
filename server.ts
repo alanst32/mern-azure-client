@@ -9,6 +9,8 @@ import {Router} from 'express';
 
 const app = express();
 app.use(express.static(path.join('./')));
+app.use(express.static('./src/components'));
+app.use(express.static('./src/assets'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 

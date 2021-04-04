@@ -21,7 +21,9 @@
         ], 
         "paths": {
             "@assets/*": ["assets/*"],
-            "@app/*": ["components/*"]
+            "@app/*": ["components/*"],
+            "@services/*": ["services/*"],
+            "@models/*": ["models/*"]
        }
     },
     "include": [

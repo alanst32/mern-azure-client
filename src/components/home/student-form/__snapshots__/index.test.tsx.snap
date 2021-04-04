@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StudentForm Render StudentForm properly 1`] = `
+<div
+  className="makeStyles-header-1"
+>
+  <JumbotronHeader
+    totalStudents={5}
+  />
+  <form
+    autoComplete="off"
+    className="makeStyles-form-3"
+    noValidate={true}
+  >
+    <WithStyles(ForwardRef(TextField))
+      id="firstName"
+      label="First Name"
+      onChange={[Function]}
+      variant="outlined"
+    />
+    <WithStyles(ForwardRef(TextField))
+      id="lastName"
+      label="Last Name"
+      onChange={[Function]}
+      variant="outlined"
+    />
+    <WithStyles(ForwardRef(TextField))
+      id="country"
+      label="Country"
+      onChange={[Function]}
+      variant="outlined"
+    />
+    <WithStyles(ForwardRef(TextField))
+      InputLabelProps={
+        Object {
+          "shrink": true,
+        }
+      }
+      id="dateOfBirth"
+      label="DOB"
+      onChange={[Function]}
+      type="date"
+      variant="outlined"
+    />
+    <WithStyles(ForwardRef(Button))
+      className="makeStyles-insertBtn-6"
+      color="primary"
+      id="insertBtn"
+      onClick={[Function]}
+      variant="contained"
+    >
+      Insert
+    </WithStyles(ForwardRef(Button))>
+  </form>
+</div>
+`;

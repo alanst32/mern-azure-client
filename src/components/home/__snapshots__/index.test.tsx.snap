@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Render Home properly 1`] = `
+<div
+  className="makeStyles-home-1"
+>
+  <StudentForm
+    totalStudents={0}
+  />
+  <StudentTable
+    students={Array []}
+  />
+</div>
+`;
